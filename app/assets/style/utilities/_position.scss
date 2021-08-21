@@ -1,0 +1,40 @@
+.top-20 {
+  top: 20%;
+}
+.end-6 {
+  right: 6%;
+}
+
+@include media-breakpoint-up(sm) {
+  .translate-sm-middle {
+    transform: translate(-50%, -50%);
+  }
+  .position-sm-relative {
+    position: relative;
+  }
+  .position-sm-absolute {
+    position: absolute;
+  }
+}
+@include media-breakpoint-up(md) {
+  .translate-md-middle {
+    transform: translate(-50%, -50%);
+  }
+  .position-md-relative {
+    position: relative;
+  }
+  .position-md-absolute {
+    position: absolute;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .translate-lg-middle {
+    transform: translate(-50%, -50%);
+  }
+  .position-lg-relative {
+    position: relative;
+  }
+  .position-lg-absolute {
+    position: absolute;
+  }
+}

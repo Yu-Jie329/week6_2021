@@ -1,0 +1,23 @@
+//sizing
+@include media-breakpoint-up(sm) {
+  .w-sm-100 {
+    width: 100%;
+  }
+  .h-sm-100 {
+    height: 100%;
+  }
+  .h-sm-auto {
+    height: auto;
+  }
+}
+@include media-breakpoint-up(md) {
+  .w-md-69 {
+    width: 69%;
+  }
+  .h-md-100 {
+    height: 100%;
+  }
+  .h-md-auto {
+    height: auto;
+  }
+}
