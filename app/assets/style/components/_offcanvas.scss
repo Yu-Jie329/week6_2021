@@ -32,3 +32,9 @@
     background: $primary;
   }
 }
+
+.scrollbar-none {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

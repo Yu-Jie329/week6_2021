@@ -1,6 +1,6 @@
 //hover
-.link-hover-border {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+.link-hover-border-primary {
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
   transition: border-bottom 1s;
   text-decoration: none;
   &:hover {
@@ -8,11 +8,9 @@
   }
 }
 
-.link-hover-color {
-  background: $white;
-  color: $primary;
+.link-hover-warning {
+  color: $white;
   &:hover {
-    background: $primary;
-    color: $white;
+    color: $warning;
   }
 }

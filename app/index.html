@@ -3,153 +3,103 @@ title: Home
 layout: ./app/layout.ejs
 engine: ejs
 current: index
-display: ''
 ---
 
-<!-- menu -->
-<section class="container-fluid border border-dark d-flex justify-content-md-center">
-  <ul class="d-flex flex-nowrap overflow-x-auto  white-space-nowrap my-3 p-0">
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">音樂</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">戲劇</a></li>
-      <li><a href="product.html" class="link-hover-border d-block text-dark me-4 px-2 py-1">設計</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">藝術</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">美食</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">旅遊</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">電影</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark me-4 px-2 py-1">親子</a></li>
-      <li><a href="#" class="link-hover-border d-block text-dark py-1">期間限定</a></li>
-  </ul>
-</section>
-
-<!-- 熱門特展 -->
-<section>
-    <div class="container pt-5 pt-md-15">
-        <div class="row">
-            <div class="col-12 mb-1 mb-md-6 px-md-0">
-                <h2 class="fs-1 fw-bold px-0" data-aos="fade-up" data-aos-duration="2000">熱門特展</h2>
+<!-- banner -->
+<section class="background-xl">
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-5 offset-lg-1 text-dark">
+                <h6 class="mb-2 mb-lg-0">健身輕時尚</h6>
+                <h3 class="fs-lg-1">DOYOGA，做你的瑜珈</h3>
+                <h5 class="fs-lg-4 mb-4">多給自己一點時間享受靜謐，傾聽內心的聲音。</h5>
+                <div class="d-flex">
+                    <a href="reservation.html" class="btn btn-success-secondary me-2">立即預約</a>
+                    <a href="course.html" class="btn btn-secondary-primary">課程介紹</a>
+                </div>
             </div>
         </div>
-        <ul class="row">
-            <li class="col-12 bg-light mb-4 mb-md-5  px-md-0 py-6 py-md-0" data-aos="zoom-out-right" data-aos-duration="2000">
-                <div class="card bg-light">
-                    <div class="row flex-sm-row flex-column g-0 ">
-                      <div class="col-12 col-md-4 d-flex d-md-block justify-content-center">
-                        <img src="./assets/images/SpecialExhibition-1.jpg" alt="SpecialExhibition-1" class="img-l mb-2 mb-md-0">
-                      </div>
-                      <div class="col-12 col-md-8 d-flex align-items-center">
-                        <div class="d-flex justify-content-between px-md-6">
-                            <div class="w-md-69 w-sm-100">
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <h4 class="card-title fs-4 fw-bold mb-1 me-2">2020 台味設計展</h4>
-                                        <img src="./assets/images/facebook-24px.svg" class="d-md-none" alt="fb">
-                                    </div>
-                                    <p class="d-md-none">01 JUN — 31 OCT</p>
-                                </div>
-                              <p class="fs-4 mb-2">$350</p>
-                              <h5 class="card-text fs-md-4 mb-md-8 mb-5">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</h5>
-                              <div class="d-flex">
-                                <button type="button" class="btn btn-primary px-4 py-2 me-1 me-md-2 ">購買票券</button>
-                                <button type="button" class="btn btn-outline-primary px-4 py-2">收藏展覽</button>
-                              </div>
-                            </div>
-                            <div class="d-none d-md-flex flex-md-column justify-content-md-between align-items-md-center fs-4 fw-bold">
-                                <p>01 <br>JUN <br>| <br>31 <br>OCT</p>
-                                <img src="./assets/images/facebook-24px.svg" alt="fb">
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </li>
-            <li class="col-12 bg-light mb-4 mb-md-5 px-4 px-md-0 py-6 py-md-0" data-aos="zoom-out-left" data-aos-duration="2000">
-                <div class="card bg-light">
-                    <div class="row flex-sm-row flex-column g-0 ">
-                      <div class="col-12 col-md-4 d-flex d-md-block justify-content-center">
-                        <img src="./assets/images/SpecialExhibition-2.jpg" alt="SpecialExhibition-2" class="img-l mb-2 mb-md-0">
-                      </div>
-                      <div class="col-12 col-md-8 d-flex align-items-center">
-                        <div class="d-flex justify-content-between px-md-6">
-                            <div class="w-md-69 w-sm-100">
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <h4 class="card-title fs-4 fw-bold mb-1 me-2">No.22 線上設計展</h4>
-                                        <img src="./assets/images/facebook-24px.svg" class="d-md-none" alt="fb">
-                                    </div>
-                                    <p class="d-md-none">01 JUN — 31 OCT</p>
-                                </div>
-                              <p class="fs-4 mb-2">$350</p>
-                              <h5 class="card-text fs-md-4 mb-md-8 mb-5">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</h5>
-                              <div class="d-flex">
-                                <button type="button" class="btn btn-primary px-4 py-2 me-1 me-md-2 ">購買票券</button>
-                                <button type="button" class="btn btn-outline-primary px-4 py-2">收藏展覽</button>
-                              </div>
-                            </div>
-                            <div class="d-none d-md-flex flex-md-column justify-content-md-between align-items-md-center fs-4 fw-bold">
-                                <p>01 <br>JUN <br>| <br>31 <br>OCT</p>
-                                <img src="./assets/images/facebook-24px.svg" alt="fb">
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </li>
-            <li class="col-12 bg-light px-4 px-md-0 py-6 py-md-0" data-aos="zoom-out-right" data-aos-duration="2000">
-                <div class="card bg-light">
-                    <div class="row flex-sm-row flex-column g-0 ">
-                      <div class="col-12 col-md-4 d-flex d-md-block justify-content-center">
-                        <img src="./assets/images/SpecialExhibition-3.jpg" alt="SpecialExhibition-3" class="img-l mb-2 mb-md-0">
-                      </div>
-                      <div class="col-12 col-md-8 d-flex align-items-center">
-                        <div class="d-flex justify-content-between px-md-6">
-                            <div class="w-md-69 w-sm-100">
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <h4 class="card-title fs-4 fw-bold mb-1 me-2">高雄設計節</h4>
-                                        <img src="./assets/images/facebook-24px.svg" class="d-md-none" alt="fb">
-                                    </div>
-                                    <p class="d-md-none">01 JUN — 31 OCT</p>
-                                </div>
-                              <p class="fs-4 mb-2">$350</p>
-                              <h5 class="card-text fs-md-4 mb-md-8 mb-5">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</h5>
-                              <div class="d-flex">
-                                <button type="button" class="btn btn-primary px-4 py-2 me-1 me-md-2 ">購買票券</button>
-                                <button type="button" class="btn btn-outline-primary px-4 py-2">收藏展覽</button>
-                              </div>
-                            </div>
-                            <div class="d-none d-md-flex flex-md-column justify-content-md-between align-items-md-center fs-4 fw-bold">
-                                <p>01 <br>JUN <br>| <br>31 <br>OCT</p>
-                                <img src="./assets/images/facebook-24px.svg" alt="fb">
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </li>
-        </ul>
     </div>
 </section>
 
-<!-- 直播回顧 -->
-<section>
-    <div class="container pt-6 pt-md-15">
-        <div class="row">
-            <div class="col-12 mb-2 mb-md-6 px-md-0">
-                <h2 class="fs-1 fw-bold" data-aos="fade-up" data-aos-duration="2000">直播回顧</h2>
-            </div>
+<!-- 感受身心 -->
+<section class="container">
+    <div class="row pt-8 pt-lg-10 ">
+        <div class="col-12 text-center mb-6 mb-lg-8">
+            <h3 class="text-primary mb-1">感受身心，活在當下</h3>
+            <p class="fs-5 text-secondary">DOYOGA 可以帶給你...</p>
         </div>
-        <div class="row">
-            <div class="col-12 banner-people">
-                <div class="row h-100">
-                    <div class="col-12 col-md-5 bg-success-opacity text-white pt-10 ps-6 pe-0">
-                        <div class="d-flex mb-8" data-aos="fade-up" data-aos-duration="2000">
-                            <h2 class="fw-bold border-end border-white pe-2">開幕對談</h2>
-                            <h2 class="text-white ps-2">藝術展演巡禮</h2>
-                        </div>
-                        <img src="./assets/images/people.png" class="img-s mb-3" alt="people" data-aos="fade-up" data-aos-duration="2000">
-                        <h4 class="mb-2" data-aos="fade-up" data-aos-duration="2000">臺北現代聯合總監｜Ken Hsu</h4>
-                        <p class="fs-5 fs-md-4 mb-4 pe-6" data-aos="fade-up" data-aos-duration="2000">獨家由藝術家、策展人、畫廊總監帶您欣賞台北藝術特展，感受雕塑、展演及當代日常文化之間微妙的關係。</p>
-                        <button type="button" class="btn btn-secondary px-9 py-2" data-aos="fade-up" data-aos-duration="2000">點此觀看</button>
+    </div>
+    <ul class="row text-white pb-12 pb-lg-16">
+        <li class="col-12 col-md-4 col-lg-4 position-relative mb-4 mb-md-0">
+            <img src="./assets/images/OverallFitness.jpeg" alt="OverallFitness" class="border-radius-4 img-l">
+            <div class="position-absolute bottom-0 p-6 p-md-4 p-xl-6">
+                <h5 class="fs-md-6 fs-lg-5">整體健身</h5>
+                <p>每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
+            </div>
+        </li>
+        <li class="col-12 col-md-4 col-lg-4 position-relative mb-4 mb-md-0">
+            <img src="./assets/images/DecompressionAndRelaxation.jpeg" alt="DecompressionAndRelaxation" class="border-radius-4 img-l">
+            <div class="position-absolute bottom-0 p-6 p-md-4 p-xl-6">
+                <h5 class="fs-md-6 fs-lg-5">減壓放鬆</h5>
+                <p>調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
+            </div>
+        </li>
+        <li class="col-12 col-md-4 col-lg-4 position-relative">
+            <img src="./assets/images/PartialSculpture.jpeg" alt="PartialSculpture" class="border-radius-4 img-l">
+            <div class="position-absolute bottom-0 p-6 p-md-4 p-xl-6">
+                <h5 class="fs-md-6 fs-lg-5">局部雕塑</h5>
+                <p>幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
+            </div>
+        </li>
+        
+    </ul>
+</section>
+
+<!-- 頂尖師資 -->
+<section class="bg-success">
+    <div class="container pt-lg-24 pt-8 pb-lg-24 pb-12">
+        <div class="row align-items-center">
+            <div class="col-md-6 d-none d-lg-block">
+                <img src="./assets/images/course.jpeg" alt="ProfessionalTeaching" class="border-radius-4 img-xxl">
+            </div>
+            <div class="col-12 col-lg-6">
+                <div>
+                    <h3 class="text-primary text-center text-lg-start mb-1">頂尖師資、專業教學</h3>
+                    <p class="fs-5 text-secondary mb-6">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 offset-md-3 col-md-9 offset-lg-0 col-lg-12">
+                        <ul>
+                            <li class="card flex-row align-items-center border-radius-4 ms--n24 mb-4">
+                                <div class="py-12 py-md-10 ps-4 ps-md-12 pe-4 pe-md-6 pe-lg-5">
+                                    <img src="./assets/images/teacher-1.png" alt="teacher-1" class="img-s">
+                                </div>
+                                <div class="card-bady">
+                                    <h5 class="card-title mb-1">Carol Tang 老師</h5>
+                                    <p class="card-text">教學經歷 10 年</p>
+                                    <p class="card-text">瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。</p>
+                                </div>
+                            </li>
+                            <li class="card flex-row align-items-center border-radius-4 mb-4">
+                                <div class="py-12 py-md-10 ps-4 ps-md-12 pe-4 pe-md-6 pe-lg-5">
+                                    <img src="./assets/images/teacher-2.png" alt="teacher-2" class="img-xs">
+                                </div>
+                                <div class="card-bady">
+                                    <h5 class="card-title mb-1">Kanae 老師</h5>
+                                    <p class="card-text">教學經歷 10 年</p>
+                                </div>
+                            </li>
+                            <li class="card flex-row align-items-center border-radius-4">
+                                <div class="py-12 py-md-10 ps-4 ps-md-12 pe-4 pe-md-6 pe-lg-5">
+                                    <img src="./assets/images/teacher-3.png" alt="teacher-3" class="img-xs">
+                                </div>
+                                <div class="card-bady">
+                                    <h5 class="card-title mb-1">Asa Ifrit 老師</h5>
+                                    <p class="card-text">教學經歷 10 年</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -157,5 +107,365 @@ display: ''
     </div>
 </section>
 
+<!-- 舒適空間 -->
+<section class="container">
+    <div class="row flex-md-row-reverse justify-content-end align-items-center pt-12 pb-12 pt-md-14 pb-md-14 pt-lg-16 pb-lg-16">
+        <div class="col-12 col-md-6 col-lg-5 mb-4 mb-md-0">
+            <h3 class="text-primary mb-1">舒適空間、靜心放鬆</h3>
+            <h5 class="text-secondary mb-4 mb-lg-6">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</h5>
+            <a href="#" class="position-relative"><p class="text-primary">環境介紹<span class="material-icons-outlined position-absolute top-50 text-primary">arrow_right_alt</span></p></a>
+            <a href="#"></a>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-6 col-md-8">
+                    <img src="./assets/images/Comfortable-1.jpg" alt="Comfortable-1" class="img-xl border-radius-4">
+                </div>
+                <div class="col-6 col-md-4 d-md-flex flex-md-column justify-content-md-between align-items-md-center">
+                    <img src="./assets/images/Comfortable-2.jpg" alt="Comfortable-2" class="img-m border-radius-4">
+                    <img src="./assets/images/Comfortable-3.jpg" alt="Comfortable-3" class="img-m border-radius-4 d-none d-md-block">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- 精心設計 -->
+<!-- swiper -->
+<section class="bg-success">
+    <div class="container">
+        <div class="row align-items-center py-12 py-md-14 py-lg-16">
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1 mb-4 mb-md-0">
+                <h3 class="text-primary mb-1">精心設計、課程多元</h3>
+                <h5 class="text-secondary mb-4 mb-lg-6">教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</h5>
+                <a href="#" class="position-relative"><p class="text-primary">課程介紹<span class="material-icons-outlined position-absolute top-50 text-primary">arrow_right_alt</span></p></a>
+                <a href="#"></a>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./assets/images/MultipleCourses-1.jpg" alt="MultipleCourses-1" class="img-swiper-l border-radius-4"></div>
+                      <div class="swiper-slide"><img src="./assets/images/MultipleCourses-2.jpg" alt="MultipleCourses-2" class="img-swiper-l border-radius-4"></div>
+                      <div class="swiper-slide"><img src="./assets/images/MultipleCourses-3.jpg" alt="MultipleCourses-3" class="img-swiper-l border-radius-4"></div>
+                      <div class="swiper-slide"><img src="./assets/images/MultipleCourses-4.jpg" alt="MultipleCourses-4" class="img-swiper-l border-radius-4"></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 d-lg-none">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center mb-4 mb-6">
+                        <img src="./assets/images/MultipleCourses-1.jpg" alt="MultipleCourses-1" class="img-swiper-l border-radius-4">
+                    </div>
+                    <div class="col-6 d-flex justify-content-center mb-4 mb-6">
+                        <img src="./assets/images/MultipleCourses-2.jpg" alt="MultipleCourses-2" class="img-swiper-l border-radius-4">
+                    </div>
+                    <div class="col-6 d-flex justify-content-center">
+                        <img src="./assets/images/MultipleCourses-3.jpg" alt="MultipleCourses-3" class="img-swiper-l border-radius-4">
+                    </div>
+                    <div class="col-6 d-flex justify-content-center">
+                        <img src="./assets/images/MultipleCourses-4.jpg" alt="MultipleCourses-4" class="img-swiper-l border-radius-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 方案選擇 -->
+<section class="container">
+    <div class="row pt-8 pt-md-10 pb-12 pb-md-14 pb-lg-16">
+        <div class="col-12 text-center">
+            <h3 class="text-primary mb-1">方案選擇</h3>
+            <p class="fs-4 text-secondary mb-6 mb-lg-8">DOYOGA 可以帶給你...</p>
+        </div>
+        <ul class="row">
+            <li class="col-12 col-lg-4 mb-4 mb-md-6 mb-lg-0">
+                <div class="card border border-radius-4 border-secondary flex-md-row flex-lg-column p-0">
+                    <img src="./assets/images/MultipleCourses-4.jpg" alt="firstTime" class="img-scheme border-radius-img-4">
+                    <div class="card-bady p-6">
+                        <h5 class="cart-title text-primary text-center text-md-start text-lg-center mb-1">首次體驗</h5>
+                        <p class="card-text fs-5 text-secondary text-center text-md-start text-lg-center mb-2">NT $450 / 次</p>
+                        <p class="card-text text-primary mb-10 mb-md-6 mb-lg-10">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+                        <a href="#" class="btn btn-secondary-primary stretched-link w-100 py-2">選擇課程</a>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-lg-4 mb-4 mb-md-6 mb-lg-0">
+                <div class="card border border-radius-4 border-secondary flex-md-row flex-lg-column p-0">
+                    <img src="./assets/images/ShortTerm.jpg" alt="ShortTerm" class="img-scheme border-radius-img-4">
+                    <div class="card-bady p-6">
+                        <h5 class="cart-title text-primary text-center text-md-start text-lg-center mb-1">短期體驗</h5>
+                        <p class="card-text fs-5 text-secondary text-center text-md-start text-lg-center mb-2">NT $1800 / 月</p>
+                        <p class="card-text text-primary mb-10 mb-md-6 mb-lg-10">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</p>
+                        <a href="#" class="btn btn-secondary-primary stretched-link w-100 py-2">選擇課程</a>
+                    </div>
+                </div>
+            </li>
+            <li class="col-12 col-lg-4">
+                <div class="card border border-radius-4 border-secondary flex-md-row flex-lg-column p-0">
+                    <img src="./assets/images/LongTerm.jpg" alt="LongTerm" class="img-scheme border-radius-img-4">
+                    <div class="card-bady p-6">
+                        <h5 class="cart-title text-primary text-center text-md-start text-lg-center mb-1">長期體驗</h5>
+                        <p class="card-text fs-5 text-secondary text-center text-md-start text-lg-center mb-2">NT $5600 / 季</p>
+                        <p class="card-text text-primary mb-10 mb-md-6 mb-lg-10">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</p>
+                        <a href="#" class="btn btn-secondary-primary stretched-link w-100 py-2">選擇課程</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- 聽聽他們怎麼說 -->
+<!-- swiper -->
+<section class="bg-success">
+    <div class="container">
+        <div class="row pt-8 pt-md-10 pb-24 pb-md-16">
+            <div class="col-12 mb-6 mb-md-8">
+                <h3 class="text-primary text-center">聽聽他們怎麼說</h3>
+            </div>
+            <div class="col-12">
+                <!-- <ul>
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-1.png" alt="user-1" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">Joanne</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">服務很好、設備優良！</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-2.png" alt="user-2" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">穎旻</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">上課後身體健康很多</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-3.png" alt="user-3" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">子琪</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">上課很有趣！</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-4.png" alt="user-4" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">葉子</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">老師的教學很專業</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-5.png" alt="user-5" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">Ray</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">很舒壓</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/uset-6.png" alt="user-6" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">俊儀</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">讚的！</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul> -->
+
+                <!-- swiper -->
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-1.png" alt="user-1" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">Joanne</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">服務很好、設備優良！</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-2.png" alt="user-2" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">穎旻</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">上課後身體健康很多</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-3.png" alt="user-3" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">子琪</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">上課很有趣！</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-4.png" alt="user-4" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">葉子</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">老師的教學很專業</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/user-5.png" alt="user-5" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">Ray</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">很舒壓</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card flex-row align-items-center border-radius-4">
+                            <img src="./assets/images/uset-6.png" alt="user-6" class="img-icon ms-4">
+                            <div class="card-bady p-4">
+                                <div class="card-title d-flex align-items-center mb-2">
+                                    <h6 class="me-2">俊儀</h6>
+                                    <small>Oct 17 2020</small>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                    <span class="material-icons-outlined text-primary">star</span>
+                                </div>
+                                <p class="card-text">讚的！</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
 

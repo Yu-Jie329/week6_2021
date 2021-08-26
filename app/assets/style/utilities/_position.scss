@@ -4,10 +4,19 @@
 .end-6 {
   right: 6%;
 }
+.top--9 {
+  top: -9%;
+}
+.start-6 {
+  left: 6%;
+}
 
 @include media-breakpoint-up(sm) {
   .translate-sm-middle {
     transform: translate(-50%, -50%);
+  }
+  .translate-sm-middle-x {
+    transform: translateX(-50%);
   }
   .position-sm-relative {
     position: relative;
@@ -20,6 +29,9 @@
   .translate-md-middle {
     transform: translate(-50%, -50%);
   }
+  .translate-md-middle-x {
+    transform: translateX(-50%);
+  }
   .position-md-relative {
     position: relative;
   }
@@ -30,6 +42,9 @@
 @include media-breakpoint-up(lg) {
   .translate-lg-middle {
     transform: translate(-50%, -50%);
+  }
+  .translate-lg-middle-x {
+    transform: translateX(-50%);
   }
   .position-lg-relative {
     position: relative;
