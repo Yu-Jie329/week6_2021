@@ -26246,6 +26246,11 @@ fieldset:disabled .btn {
   }
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   line-height: 1.5;
 }
